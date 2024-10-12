@@ -1,0 +1,38 @@
+.wrapper {
+    background: var(--white);
+}
+
+.hero-container {
+    margin-top: 6rem;
+    margin-bottom: 3.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.hero-left .hero-header {
+    color: var(--green);
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.hero-left .hero-text {
+    color: var(--green);
+}
+
+.hero-right {
+    display: flex;
+    gap: 1rem;
+}
+
+@media only screen and (max-width: 840px) {
+    .hero-container {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,17 @@
+
+.help-container {
+    background: var(--green);
+}
+
+.help-content {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.help-right {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}

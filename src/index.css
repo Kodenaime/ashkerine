@@ -38,12 +38,11 @@ html {
   display: none;
 }
 
-body {
- 
+body { 
   
-  color: var(--white);
   line-height: 1.6;
-  background-image: url(../src/Assets/background.png);
+  /* background-image: url(../src/Assets/background.png); */
+  
 }
 
 
@@ -51,8 +50,15 @@ body {
 
 .container {
   width: var(--container-width-lg);
-  margin: 0 auto;
+  margin: 0 7rem;
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+
 
 h1, h2, h3, h4, h5 {
   font-weight: 500;
@@ -88,12 +94,12 @@ a:hover {
 .btn {
   width: max-content;
   display: inline-block;
-  color: var(--white);
-  background: var(--purple);
-  padding: 0.8rem 1.2rem;
-  border-radius: 0.5rem;
+  color: var(--green);
+  background: var(--white);
+  padding: 0.3rem 1rem;
+  border-radius: 0.5rem 0 0 0;
   cursor: pointer;
-  border: 1px solid var(--purple);
+  border: 1px solid var(--green);
   transition: var(--transition);
 }
 
@@ -103,13 +109,6 @@ a:hover {
   transform: scale(1.1);
 }
 
-.btn-primary {
-  background: transparent;
-  color: var(--white);
-  padding: 0.7rem 1rem;
-  border-radius: 0.4rem;
-  
-}
 
 img {
   width: 100%;
@@ -130,6 +129,12 @@ img {
       margin-top: 6rem;
   }
 } 
+
+@media only screen and (max-width: 890px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
 
 
 
