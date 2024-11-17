@@ -1,17 +1,23 @@
-
-.help-container {
+.help {
     background: var(--green);
-}
-
-.help-content {
-    margin-top: 6rem;
-    margin-bottom: 6rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
 }
 
 .help-right {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+    color: var(--white);
+    display: grid;
+    place-items: center;
+    margin: 4.5rem auto;
+}
+
+.help-right h2 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.help-right p {
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.8;
 }

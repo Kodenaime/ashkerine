@@ -1,0 +1,27 @@
+.about {
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+}
+
+.about-left {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-left h2 {
+    align-self: flex-start;
+}
+
+.about-right {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.about-right .image-down {
+    display: flex;
+    gap: 1rem;
+}

@@ -1,0 +1,16 @@
+.down {
+    padding: 5rem 3rem;
+    background: var(--yellow);
+}
+
+.downer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.downer .down-info {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.7rem;
+}
