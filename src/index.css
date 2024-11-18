@@ -92,7 +92,7 @@ a:hover {
 }
 
 .btn {
-  width: max-content;
+  width: fit-content;
   display: inline-block;
   color: var(--green);
   background: var(--white);
@@ -100,6 +100,18 @@ a:hover {
   border-radius: 0.5rem 0 0 0;
   cursor: pointer;
   border: 1px solid var(--green);
+  transition: var(--transition);
+}
+
+.btn.new {
+  width: fit-content;
+  display: inline-block;
+  color: var(--white);
+  background: transparent;
+  padding: 0.3rem 1rem;
+  border-radius: 0.5rem 0 0 0;
+  cursor: pointer;
+  border: 1px solid var(--white);
   transition: var(--transition);
 }
 
@@ -123,11 +135,10 @@ img {
 @media screen and (max-width: 1024px) {
   .container {
       width: var(--container-width-md);
+      margin: 0 auto;
   }
 
-  section {
-      margin-top: 6rem;
-  }
+ 
 } 
 
 @media only screen and (max-width: 890px) {

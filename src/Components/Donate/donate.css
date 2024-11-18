@@ -1,0 +1,18 @@
+.donate-right {
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    margin: 5rem auto;
+}
+
+.donate-right h2 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.donate-right p {
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.8;
+}

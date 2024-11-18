@@ -1,4 +1,5 @@
 import React from 'react'
+import donateimage from '../../Assets/donate.png'
 
 import './donate.css'
 
@@ -7,15 +8,16 @@ const Donate = () => {
     <section className="help">
     <div className="container help-container grid">
         <div className="help-left">
-            <img src={help} alt="" />
+            <img src={donateimage} alt="" />
         </div>
-        <div className="help-right">
-            <h2 className="help-header">
+        <div className="donate-right">
+            <h2 className="donate-header">
                 Want to be a part of the movement of touching lives?
             </h2>
-            <p className="help-text">
+            <p className="donate-text">
                 Be part of something good today
             </p>
+            <a href="" className='btn new'>Donate</a>
         </div>
     </div>
   </section>

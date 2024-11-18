@@ -1,0 +1,42 @@
+.footer {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background: var(--yellow);
+    color: var(--green);
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.news h3 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+
+.news form input {
+    padding: 1rem 3rem;
+    border: 1px solid var(--green);
+    border-radius: 2rem;
+    background: transparent;
+}
+
+.news form button {
+    background: var(--green);
+    color: var(--white);
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    margin-left: 0.7rem;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 3rem;
+}

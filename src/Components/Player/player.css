@@ -1,0 +1,19 @@
+.players {
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+}
+
+.player-container {
+    display: flex;
+    gap: 2rem;
+}
+
+.videos .player{
+   position: relative;
+   padding: 0.5rem;
+}
+
+.player .video {
+    position: absolute;
+    border-radius: 0 2rem 0 2rem;
+}
